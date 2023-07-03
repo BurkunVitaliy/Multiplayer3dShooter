@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=a6c8ab4e27739e445b49f670d2f91747&amp;type=3#main" />
+    <ui:VisualElement class="main-panel" style="background-color: rgb(58, 49, 49);">
+        <ui:Label text="Список комнат" display-tooltip-when-elided="true" class="label" style="color: rgba(255, 255, 255, 255);" />
+        <ui:VisualElement name="ListOfRooms" style="width: 300px; height: 300px; margin-top: 30px; background-color: rgb(65, 57, 57); padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>

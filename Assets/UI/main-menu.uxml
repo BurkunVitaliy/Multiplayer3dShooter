@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=a6c8ab4e27739e445b49f670d2f91747&amp;type=3#main" />
+    <ui:VisualElement class="main-panel" style="color: rgb(224, 199, 199); background-color: rgb(48, 42, 42);">
+        <ui:Label text="Основное меню" display-tooltip-when-elided="true" class="label" />
+        <ui:Button text="Создать комнату" display-tooltip-when-elided="true" name="CreateRoomButton" class="buttin" style="margin-top: 30px; width: 350px; height: 50px; font-size: 15px; background-color: rgba(123, 49, 49, 255);" />
+        <ui:Button text="Присоединиться к комнате" display-tooltip-when-elided="true" name="JoinRoomButton" class="buttin" style="margin-top: 30px; width: 350px; height: 50px; font-size: 15px; background-color: rgb(123, 49, 49);" />
+    </ui:VisualElement>
+</ui:UXML>
